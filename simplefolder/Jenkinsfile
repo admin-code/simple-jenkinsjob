@@ -5,7 +5,7 @@ pipeline {
     stages{
       stage("First"){
       steps {
-      sh hostname
+      sh 'sleep 1000'
       }
     } 
   }
